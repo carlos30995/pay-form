@@ -1,0 +1,77 @@
+body { 
+  min-height: 100vh;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(173, 219, 204);
+}
+input{
+  width: 90%;
+  height: 30px;
+  align-items: center;
+  margin:10px 0px 10px 20px;
+}
+select{
+  width: 20%;
+  height: 30px;
+  margin-left: 20px;
+}
+.cabeza{
+  text-align: center;
+}
+.cabeza h2{
+  font-size:larger;
+}
+
+.contenedor{
+  background-color: #888;
+  border-radius: 10px;
+  margin: 10%;
+  margin-left: 50%;
+  padding: 10px;
+  width: 100vh;
+  height: 100%;
+}
+.contenedor button{
+  border-style: none;
+  width: 500px;
+  height: 40px;
+  margin-left: 20%;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
+.nombres{
+  margin: 10px;
+}
+.Generos{
+  border-style:ridge;
+  border-color: rgb(0, 0, 0);
+  border-radius: 6px;
+  padding: 10px;
+  margin: 0px;
+}
+.Generos label{
+  margin-right: 15px;
+}
+.Generos input{
+  margin-left: 20px;
+  width: 5%;
+  height: 20px;
+}
+.Address input{
+  height: 90px;
+  overflow: initial;
+}
+.payinfo{
+  margin-bottom: 30px;
+}
+.payinfo input{
+  margin-top: 0px;
+}
+.payinfo select{
+  margin-bottom: 10px;
+}
+.footers{
+  align-items: center;
+  text-align: center;
+  margin-left: 90%;
+}
